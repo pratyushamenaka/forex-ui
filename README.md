@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+This is React app "forex-ui" to display currencies and calculate best profit made by buying and selling currency at any given day.
+
 ## Available Scripts
 
 In the project directory, you can run:
