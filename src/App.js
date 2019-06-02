@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
 import moment from 'moment';
 import './App.css';
-import Background from './forex.png';
 
 
 import Axios from 'axios';
@@ -67,7 +65,6 @@ class stockMarket extends Component {
     ));
   }
 
-
   render() {
     const { loading, items, error } = this.state;
     return (
@@ -79,7 +76,6 @@ class stockMarket extends Component {
         {error && <div>Error loading data...</div>}
       </div>
       </div>
-
     );
   }
 }
